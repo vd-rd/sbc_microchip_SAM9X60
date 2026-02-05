@@ -2,15 +2,15 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "323e64ed-5f81-410d-9081-fb4424f9b116")
+	(uuid "8c33f5a3-8933-40e3-bc7e-12e8b6e14cec")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
 				(at 0 5.08 0)
@@ -37,7 +37,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~{}"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -91,16 +91,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 76.2 185.42 0)
+		(at 21.59 190.5 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c4da88f5-edb6-414d-84e6-8e66a46f4af8")
-		(property "Reference" "H4"
-			(at 78.7401 184.6591 0)
+		(uuid "2f4cb331-839c-4cc7-86c0-8eef3b76b9c8")
+		(property "Reference" "H1"
+			(at 24.13 189.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -109,7 +109,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 78.7401 186.9578 0)
+			(at 24.13 191.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -117,8 +117,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965"
-			(at 76.2 185.42 0)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 21.59 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126,8 +126,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~{}"
-			(at 76.2 185.42 0)
+		(property "Datasheet" "~"
+			(at 21.59 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -135,18 +135,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 76.2 185.42 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 21.59 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(instances
 			(project ""
-				(path "/323e64ed-5f81-410d-9081-fb4424f9b116"
-					(reference "H4")
+				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -154,16 +155,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 46.99 184.15 0)
+		(at 60.96 190.5 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e9b24953-f9bf-4a5b-ae8e-96e6c0d854b1")
-		(property "Reference" "H2"
-			(at 49.5301 183.3891 0)
+		(uuid "57e5cdd7-f9f0-4c26-9df9-4f537705a6a2")
+		(property "Reference" "H3"
+			(at 63.5 189.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -172,7 +173,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 49.5301 185.6878 0)
+			(at 63.5 191.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -180,8 +181,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965"
-			(at 46.99 184.15 0)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 60.96 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -189,8 +190,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~{}"
-			(at 46.99 184.15 0)
+		(property "Datasheet" "~"
+			(at 60.96 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -198,17 +199,82 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 46.99 184.15 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 60.96 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(instances
-			(project ""
-				(path "/323e64ed-5f81-410d-9081-fb4424f9b116"
+			(project "sip_lpddr2"
+				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 41.91 190.5 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb26ca35-f869-41b9-8b8c-d06d5faeac55")
+		(property "Reference" "H2"
+			(at 44.45 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 44.45 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 41.91 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 41.91 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "sip_lpddr2"
+				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec"
 					(reference "H2")
 					(unit 1)
 				)
@@ -217,16 +283,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 46.99 171.45 0)
+		(at 80.01 190.5 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ec1a5e36-a7b5-4b78-88c4-36130f030c5f")
-		(property "Reference" "H1"
-			(at 49.5301 170.6891 0)
+		(uuid "c74dbcbb-3ba5-43cf-a1a0-ba6f89d61b81")
+		(property "Reference" "H4"
+			(at 82.55 189.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -235,7 +301,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 49.5301 172.9878 0)
+			(at 82.55 191.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -243,8 +309,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965"
-			(at 46.99 171.45 0)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 80.01 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -252,8 +318,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~{}"
-			(at 46.99 171.45 0)
+		(property "Datasheet" "~"
+			(at 80.01 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -261,49 +327,135 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 46.99 171.45 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 80.01 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(instances
-			(project ""
-				(path "/323e64ed-5f81-410d-9081-fb4424f9b116"
-					(reference "H1")
+			(project "sip_lpddr2"
+				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec"
+					(reference "H4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 38.1 127)
-		(size 76.2 12.7)
+		(at 25.4 38.1)
+		(size 88.9 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(stroke
-			(width 0.0006)
+			(width 0.1524)
 			(type solid)
 		)
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "35bd06c1-0c6a-430f-a482-7ff082ad168d")
-		(property "Sheetname" "wifi"
-			(at 39.37 138.43 0)
+		(uuid "3a6c0599-1777-4ded-8e99-b68194014026")
+		(property "Sheetname" "IO"
+			(at 25.4 37.3884 0)
 			(effects
 				(font
-					(size 6 6)
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io_conn.kicad_sch"
+			(at 25.4 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sip_lpddr2"
+				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 25.4)
+		(size 88.9 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3f80e801-59d5-4f2a-a510-5b0db0f896e8")
+		(property "Sheetname" "PMIC"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pmic.kicad_sch"
+			(at 25.4 36.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sip_lpddr2"
+				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 66.04)
+		(size 88.9 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aec0b0dc-4864-4f30-b63b-5aac84fa3885")
+		(property "Sheetname" "wifi"
+			(at 25.4 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "wifi.kicad_sch"
-			(at 76.2 137.16 0)
+			(at 25.4 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -312,121 +464,40 @@
 			)
 		)
 		(instances
-			(project "sbc"
-				(path "/323e64ed-5f81-410d-9081-fb4424f9b116"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 38.1 76.2)
-		(size 76.2 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.0006)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3c749ce7-d646-4de6-83a2-d6b8fc5e5df1")
-		(property "Sheetname" "io"
-			(at 39.37 87.63 0)
-			(effects
-				(font
-					(size 6 6)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "io.kicad_sch"
-			(at 76.2 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "sbc"
-				(path "/323e64ed-5f81-410d-9081-fb4424f9b116"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 38.1 101.6)
-		(size 76.2 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.0006)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "607413c6-2bfd-476d-8323-587df958351b")
-		(property "Sheetname" "sdcard"
-			(at 39.37 111.76 0)
-			(effects
-				(font
-					(size 6 6)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "sdcard.kicad_sch"
-			(at 76.2 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "sbc"
-				(path "/323e64ed-5f81-410d-9081-fb4424f9b116"
+			(project "sip_lpddr2"
+				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec"
 					(page "6")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 38.1 25.4)
-		(size 76.2 12.7)
+		(at 26.67 92.71)
+		(size 120.65 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(stroke
-			(width 0.0006)
+			(width 0.1524)
 			(type solid)
 		)
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "b6230b33-e760-4c12-ae5c-51d672e495dd")
-		(property "Sheetname" "power"
-			(at 39.37 35.56 0)
+		(uuid "c78c3839-f815-4c28-86ad-dd93581d387a")
+		(property "Sheetname" "cpu"
+			(at 26.67 91.9984 0)
 			(effects
 				(font
-					(size 6 6)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "power.kicad_sch"
-			(at 76.2 35.56 0)
+		(property "Sheetfile" "cpu.kicad_sch"
+			(at 26.67 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -435,39 +506,40 @@
 			)
 		)
 		(instances
-			(project "sbc"
-				(path "/323e64ed-5f81-410d-9081-fb4424f9b116"
+			(project "sip_lpddr2"
+				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec"
 					(page "2")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 38.1 50.8)
-		(size 76.2 12.7)
+		(at 25.4 50.8)
+		(size 88.9 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(stroke
-			(width 0.0006)
+			(width 0.1524)
 			(type solid)
 		)
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "f9c28ad1-2ab9-4e5d-813d-8cb6916684e8")
-		(property "Sheetname" "cpu"
-			(at 39.37 60.96 0)
+		(uuid "f3e7f9e2-e282-4a23-9d10-708c10386b17")
+		(property "Sheetname" "storage"
+			(at 25.4 50.0884 0)
 			(effects
 				(font
-					(size 6 6)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "cpu.kicad_sch"
-			(at 76.2 60.96 0)
+		(property "Sheetfile" "storage.kicad_sch"
+			(at 25.4 61.5446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -476,9 +548,9 @@
 			)
 		)
 		(instances
-			(project "sbc"
-				(path "/323e64ed-5f81-410d-9081-fb4424f9b116"
-					(page "3")
+			(project "sip_lpddr2"
+				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec"
+					(page "5")
 				)
 			)
 		)
