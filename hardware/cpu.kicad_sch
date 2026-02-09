@@ -5,168 +5,6 @@
 	(uuid "b2598194-a944-4153-9d3d-9c8d48e57d26")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C_Polarized_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_Small_0_1"
-				(rectangle
-					(start -1.524 0.6858)
-					(end 1.524 0.3048)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.524 -0.3048)
-					(end 1.524 -0.6858)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.524) (xy -0.762 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy -1.016 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Polarized_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.8542)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.8542)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -647,158 +485,6 @@
 					(at 2.54 0 180)
 					(length 1.27)
 					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:D_Schottky_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -1.27 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "D_Schottky_Small"
-				(at -7.112 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0.762) (xy -1.27 1.016) (xy -0.762 1.016) (xy -0.762 -1.016) (xy -0.254 -1.016) (xy -0.254 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4309,12 +3995,6 @@
 		(uuid "1a02288f-bd85-483c-b20e-53cf1956bce0")
 	)
 	(junction
-		(at 256.54 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b07b1eb-27c1-4287-98ef-a18912160dce")
-	)
-	(junction
 		(at 224.79 45.72)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -5053,16 +4733,6 @@
 			(type solid)
 		)
 		(uuid "26a10070-82b6-4edc-b5b0-cda56a026f28")
-	)
-	(wire
-		(pts
-			(xy 248.92 120.65) (xy 256.54 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a6c99d0-beb4-4618-a7b7-b0a15f484af4")
 	)
 	(wire
 		(pts
@@ -5913,16 +5583,6 @@
 			(type solid)
 		)
 		(uuid "7295260e-e5dd-4509-aba3-9ade145caf5c")
-	)
-	(wire
-		(pts
-			(xy 238.76 120.65) (xy 243.84 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73b018b7-99ed-4f45-874c-617e398499a1")
 	)
 	(wire
 		(pts
@@ -8778,7 +8438,7 @@
 	)
 	(global_label "PMC_AUX_PWR"
 		(shape output)
-		(at 44.45 57.15 180)
+		(at 182.88 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8788,7 +8448,7 @@
 		)
 		(uuid "0bd091ab-fce4-4b4e-aef1-af0fd8f6641e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.9182 57.15 0)
+			(at 166.3482 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8811,6 +8471,28 @@
 		(uuid "0c9be3e8-e393-47aa-bf3b-902aefe3ee9b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 168.442 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD_BU"
+		(shape input)
+		(at 218.44 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d966dce-09a4-40de-ad8f-ba7fc5033ee0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.2581 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9108,7 +8790,7 @@
 	)
 	(global_label "AP_WAKE_BT"
 		(shape input)
-		(at 182.88 72.39 180)
+		(at 44.45 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9118,7 +8800,7 @@
 		)
 		(uuid "285a1715-424a-40eb-9f24-ed019b1f2d7b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.9764 72.3106 0)
+			(at 30.5464 57.0706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9240,7 +8922,7 @@
 	)
 	(global_label "PMIC-CHGLEV"
 		(shape output)
-		(at 144.78 41.91 180)
+		(at 182.88 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9250,7 +8932,7 @@
 		)
 		(uuid "2e0fb9ec-eb64-4037-abe0-9a9484d62d82")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.49 41.91 0)
+			(at 166.59 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9427,6 +9109,28 @@
 		(uuid "46a90688-280f-4e64-88b8-da273982eaab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 20.6888 51.9906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PMIC-BTN"
+		(shape output)
+		(at 182.88 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48c8f994-7eac-4fe1-9384-9bf6d18e89ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.1581 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9680,7 +9384,7 @@
 	)
 	(global_label "BT_DISABLE"
 		(shape input)
-		(at 182.88 74.93 180)
+		(at 144.78 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9690,7 +9394,7 @@
 		)
 		(uuid "6656fb01-f1df-4b4d-89dd-380dc4666659")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.6417 74.8506 0)
+			(at 131.5417 44.3706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9867,6 +9571,28 @@
 		(uuid "705ad117-568d-4d83-a2cd-a22e9406ee1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 211.4307 43.2594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WKUP"
+		(shape output)
+		(at 34.29 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7185a786-87d8-4933-84dc-63255523f08e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.9829 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10648,7 +10374,7 @@
 	)
 	(global_label "WL_REG_ON"
 		(shape input)
-		(at 182.88 69.85 180)
+		(at 144.78 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10658,7 +10384,7 @@
 		)
 		(uuid "c1228b3f-9db7-4ec8-810e-6d6f9022c819")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.7021 69.7706 0)
+			(at 131.6021 100.2506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10758,7 +10484,7 @@
 	)
 	(global_label "GPIO4"
 		(shape bidirectional)
-		(at 182.88 62.23 180)
+		(at 144.78 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10768,7 +10494,7 @@
 		)
 		(uuid "ce2cb7da-a9cc-4608-b5a3-07f3b75383c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.7821 62.1506 0)
+			(at 136.6821 41.8306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11143,28 +10869,6 @@
 		(uuid "ea69b833-780c-420c-a6ee-1f2eb31bfcd6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 30.3045 72.3106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VDD_3V3"
-		(shape input)
-		(at 238.76 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ebaac2ab-141b-4096-a7b1-ab4626475767")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.671 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17478,75 +17182,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 256.54 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cdedff26-4c75-442e-9038-68be93e13874")
-		(property "Reference" "C18"
-			(at 258.826 122.428 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CPH3225"
-			(at 258.826 124.714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 256.54 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 256.54 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 256.54 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c630c165-f904-4a04-9f27-24f664f19401")
-		)
-		(pin "2"
-			(uuid "475c7716-ed83-4c5f-a9cd-005f10a9d814")
-		)
-		(instances
-			(project "sbc"
-				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec/c78c3839-f815-4c28-86ad-dd93581d387a"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 271.78 125.73 0)
 		(unit 1)
@@ -17674,74 +17309,6 @@
 			(project "sip_lpddr2"
 				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec/c78c3839-f815-4c28-86ad-dd93581d387a"
 					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 246.38 120.65 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d881ed46-e52c-4d8b-9b0e-75f0c1cd101b")
-		(property "Reference" "D1"
-			(at 246.634 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Schottky_Small"
-			(at 246.634 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 246.38 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode, small symbol"
-			(at 246.38 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "80551025-20fa-4422-b1b0-8583c92f36a5")
-		)
-		(pin "1"
-			(uuid "c48940ac-c389-49e3-95ec-11292e696a2c")
-		)
-		(instances
-			(project "sbc"
-				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec/c78c3839-f815-4c28-86ad-dd93581d387a"
-					(reference "D1")
 					(unit 1)
 				)
 			)

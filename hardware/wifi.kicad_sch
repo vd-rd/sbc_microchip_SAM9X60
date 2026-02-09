@@ -1474,12 +1474,6 @@
 		(uuid "35975cb4-0018-4a31-90c3-7768d31ae090")
 	)
 	(junction
-		(at 80.01 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3968bc37-73f1-4f0e-ab84-da10cb994122")
-	)
-	(junction
 		(at 128.27 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1621,7 +1615,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 137.16) (xy 88.9 137.16)
+			(xy 78.74 137.16) (xy 88.9 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2001,16 +1995,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 137.16) (xy 80.01 137.16)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "bee419fa-e299-456f-b51b-833946a82396")
-	)
-	(wire
-		(pts
 			(xy 110.49 111.76) (xy 154.94 111.76)
 		)
 		(stroke
@@ -2129,7 +2113,29 @@
 		)
 		(uuid "fcac3518-ef7e-4d5c-a2d1-4be102f2dee1")
 	)
-	(global_label "VDD_AUX1"
+	(global_label "VDD_AUX2"
+		(shape input)
+		(at 78.74 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ddb7ca4-0a68-414b-ab07-f4c6f2140d58")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.3205 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD_AUX2"
 		(shape input)
 		(at 120.65 142.24 180)
 		(fields_autoplaced yes)
@@ -2139,7 +2145,7 @@
 			)
 			(justify right)
 		)
-		(uuid "1a27d401-1f5c-4d90-b3c4-a1e13c6c3794")
+		(uuid "1a4c3bcd-934b-499e-a752-b46f1e741da4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 108.2305 142.24 0)
 			(effects
@@ -2195,28 +2201,6 @@
 			)
 		)
 	)
-	(global_label "VDD_AUX1"
-		(shape input)
-		(at 107.95 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "38b6fab1-08cf-44b8-9802-067cc01b016d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.5305 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDIO1-CLK"
 		(shape input)
 		(at 85.09 54.61 180)
@@ -2230,6 +2214,28 @@
 		(uuid "4c190db3-94e8-40b3-8091-d00e8fcf4c05")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 71.9121 54.5306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD_AUX2"
+		(shape input)
+		(at 72.39 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53312f44-77be-4e28-8b6e-aa92848a00af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.9705 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2318,28 +2324,6 @@
 		(uuid "79fba30e-b231-48be-802e-8dd8b0450dad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 133.9934 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VDD_AUX1"
-		(shape input)
-		(at 72.39 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7aa3dff5-6a23-4328-a7a8-3952ab13e6d7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.9705 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2591,6 +2575,28 @@
 			)
 		)
 	)
+	(global_label "VDD_AUX2"
+		(shape input)
+		(at 107.95 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f87a432f-3670-454e-ba5f-81df27a8e1a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.5305 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BT-UART-RXD"
 		(shape input)
 		(at 107.95 93.98 180)
@@ -2604,28 +2610,6 @@
 		(uuid "f96d6b1d-cb67-423c-b428-fcbf32c48ce1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.7483 93.9006 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VDD_AUX1"
-		(shape input)
-		(at 78.74 137.16 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fef07b03-d716-49e2-a9d4-a21d7a7f3dee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.3205 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3589,76 +3573,6 @@
 			(project "sip_lpddr2"
 				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec/aec0b0dc-4864-4f30-b63b-5aac84fa3885"
 					(reference "#PWR0130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 80.01 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8504891-5e0f-4c84-80b9-6a76e0f8d35c")
-		(property "Reference" "C62"
-			(at 82.3342 138.7915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 82.3342 141.5666 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 80.01 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "174ea505-d2de-46fb-97b8-f65c38792f39")
-		)
-		(pin "2"
-			(uuid "67c0ef43-30f1-4488-849c-766043f37c39")
-		)
-		(instances
-			(project "sip_lpddr2"
-				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec/aec0b0dc-4864-4f30-b63b-5aac84fa3885"
-					(reference "C62")
 					(unit 1)
 				)
 			)
