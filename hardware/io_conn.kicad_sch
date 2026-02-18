@@ -6959,6 +6959,28 @@
 			)
 		)
 	)
+	(global_label "USBC-D-"
+		(shape bidirectional)
+		(at 86.36 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "14afee8a-5290-42e2-96d1-c0bbf0017325")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.4521 176.4506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RMII-RXER"
 		(shape bidirectional)
 		(at 30.48 173.99 180)
@@ -7060,6 +7082,28 @@
 		(uuid "2b0f92c0-7db1-40fb-9444-55bad94e317d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 34.175 73.5806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USBC-D+"
+		(shape bidirectional)
+		(at 86.36 179.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2df1162e-ec78-4f10-b7b6-a4ea18a96b98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.4521 178.9906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7531,28 +7575,6 @@
 			)
 		)
 	)
-	(global_label "USB2-D-"
-		(shape bidirectional)
-		(at 86.36 176.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "514dec27-e958-4897-8f0f-8ac039a571de")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.6079 176.4506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "UART2-RX"
 		(shape input)
 		(at 44.45 53.34 180)
@@ -7632,28 +7654,6 @@
 		(uuid "6bc2992c-ad66-4173-b3b8-d145868b29a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 21.7774 120.5706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB1-D-"
-		(shape bidirectional)
-		(at 86.36 171.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6c17dc5f-bbbe-47db-bfaf-67edf6caf1b5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.6079 171.3706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7927,28 +7927,6 @@
 			)
 		)
 	)
-	(global_label "USB2-D+"
-		(shape bidirectional)
-		(at 86.36 179.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8f8feb19-db19-4dbb-902c-0f0bbc031e5b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.6079 178.9906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RMII-TX0"
 		(shape bidirectional)
 		(at 59.69 176.53 180)
@@ -8103,6 +8081,28 @@
 			)
 		)
 	)
+	(global_label "USBB-D+"
+		(shape bidirectional)
+		(at 86.36 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad615a2d-3093-484f-8594-b1bc7025e69d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.4521 173.9106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART0-TX"
 		(shape output)
 		(at 69.85 66.04 0)
@@ -8187,28 +8187,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB1-D+"
-		(shape bidirectional)
-		(at 86.36 173.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bd7bb3d1-53f9-4583-b470-096a18e89751")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.6079 173.9106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -8710,6 +8688,28 @@
 		(uuid "f773b977-2837-40b1-a905-fd3ca586275d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 21.8983 143.4306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USBB-D-"
+		(shape bidirectional)
+		(at 86.36 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f87d1d9d-5491-4aaf-a8b4-b1a3c62fd30c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.4521 171.3706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
