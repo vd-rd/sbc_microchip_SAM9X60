@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "8c33f5a3-8933-40e3-bc7e-12e8b6e14cec")
 	(paper "A4")
 	(lib_symbols
@@ -12,8 +12,12 @@
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "H"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -22,6 +26,8 @@
 			)
 			(property "Value" "MountingHole"
 				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30,47 +36,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Mounting Hole without connection"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "mounting hole"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "MountingHole*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "MountingHole_0_1"
@@ -100,7 +116,7 @@
 			(type color)
 			(color 255 153 0 1)
 		)
-		(uuid 113bfe08-e764-4265-a3a4-ba84e8f291ce)
+		(uuid "113bfe08-e764-4265-a3a4-ba84e8f291ce")
 	)
 	(rectangle
 		(start 167.64 57.15)
@@ -113,7 +129,7 @@
 			(type color)
 			(color 255 153 0 1)
 		)
-		(uuid 16bf434b-998b-44cf-9de0-cb5417385ba3)
+		(uuid "16bf434b-998b-44cf-9de0-cb5417385ba3")
 	)
 	(rectangle
 		(start 213.36 29.21)
@@ -126,7 +142,7 @@
 			(type color)
 			(color 255 153 0 1)
 		)
-		(uuid 1c13f67d-256d-474b-ab9a-03a7cd7725d3)
+		(uuid "1c13f67d-256d-474b-ab9a-03a7cd7725d3")
 	)
 	(rectangle
 		(start 167.64 49.53)
@@ -139,7 +155,7 @@
 			(type color)
 			(color 255 153 0 1)
 		)
-		(uuid 2bf52340-5af8-4cad-871e-ed005d8065c7)
+		(uuid "2bf52340-5af8-4cad-871e-ed005d8065c7")
 	)
 	(rectangle
 		(start 213.36 91.44)
@@ -152,7 +168,7 @@
 			(type color)
 			(color 255 153 0 1)
 		)
-		(uuid 39dc885b-2222-4fde-948e-942ad4e9513f)
+		(uuid "39dc885b-2222-4fde-948e-942ad4e9513f")
 	)
 	(rectangle
 		(start 115.57 77.47)
@@ -165,7 +181,7 @@
 			(type color)
 			(color 255 153 0 1)
 		)
-		(uuid 48069644-f8ee-4c8a-b802-7bb48c56902e)
+		(uuid "48069644-f8ee-4c8a-b802-7bb48c56902e")
 	)
 	(rectangle
 		(start 167.64 88.9)
@@ -178,7 +194,7 @@
 			(type color)
 			(color 255 153 0 1)
 		)
-		(uuid 61661b7b-bef0-4d46-b929-76b03da7f35c)
+		(uuid "61661b7b-bef0-4d46-b929-76b03da7f35c")
 	)
 	(rectangle
 		(start 115.57 63.5)
@@ -191,7 +207,7 @@
 			(type color)
 			(color 255 153 0 1)
 		)
-		(uuid 6ca2b0bb-974d-4c44-834d-21bf30bae023)
+		(uuid "6ca2b0bb-974d-4c44-834d-21bf30bae023")
 	)
 	(rectangle
 		(start 115.57 48.26)
@@ -204,7 +220,7 @@
 			(type color)
 			(color 255 153 0 1)
 		)
-		(uuid 702e1b68-3ecd-4a85-a32f-6a00167bb5f6)
+		(uuid "702e1b68-3ecd-4a85-a32f-6a00167bb5f6")
 	)
 	(rectangle
 		(start 167.64 96.52)
@@ -217,7 +233,7 @@
 			(type color)
 			(color 255 153 0 1)
 		)
-		(uuid 816cfb09-3e41-4272-89e2-ef9359eb0fdf)
+		(uuid "816cfb09-3e41-4272-89e2-ef9359eb0fdf")
 	)
 	(rectangle
 		(start 257.048 25.146)
@@ -230,7 +246,7 @@
 			(type color)
 			(color 255 153 0 1)
 		)
-		(uuid 81b769e2-9688-4653-af1d-5782b1a9a7c9)
+		(uuid "81b769e2-9688-4653-af1d-5782b1a9a7c9")
 	)
 	(rectangle
 		(start 213.36 74.93)
@@ -243,7 +259,7 @@
 			(type color)
 			(color 255 153 0 1)
 		)
-		(uuid 99e3e39a-0d6d-41b7-b4c3-34cd4eee9f9a)
+		(uuid "99e3e39a-0d6d-41b7-b4c3-34cd4eee9f9a")
 	)
 	(rectangle
 		(start 213.36 58.42)
@@ -256,7 +272,7 @@
 			(type color)
 			(color 255 153 0 1)
 		)
-		(uuid b9142ea2-27b8-42f9-9b86-6857b07b4a9e)
+		(uuid "b9142ea2-27b8-42f9-9b86-6857b07b4a9e")
 	)
 	(rectangle
 		(start 167.64 104.14)
@@ -269,7 +285,7 @@
 			(type color)
 			(color 255 153 0 1)
 		)
-		(uuid c2c45b01-c7f3-4035-8c27-4d7de97b77f3)
+		(uuid "c2c45b01-c7f3-4035-8c27-4d7de97b77f3")
 	)
 	(rectangle
 		(start 153.67 39.37)
@@ -282,7 +298,7 @@
 			(type color)
 			(color 255 153 0 1)
 		)
-		(uuid e2b3c95c-0df7-4b59-93b8-62eee8dbfb71)
+		(uuid "e2b3c95c-0df7-4b59-93b8-62eee8dbfb71")
 	)
 	(rectangle
 		(start 167.64 111.76)
@@ -295,7 +311,7 @@
 			(type color)
 			(color 255 153 0 1)
 		)
-		(uuid e749d24f-a696-46f6-b857-f0b0f2761651)
+		(uuid "e749d24f-a696-46f6-b857-f0b0f2761651")
 	)
 	(text "VddANA (+3.0V)"
 		(exclude_from_sim no)
@@ -893,14 +909,18 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 21.59 190.5 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f4cb331-839c-4cc7-86c0-8eef3b76b9c8")
 		(property "Reference" "H1"
 			(at 24.13 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -910,6 +930,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 24.13 191.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -919,33 +941,39 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
 			(at 21.59 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 21.59 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
 			(at 21.59 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project ""
+			(project "sbc"
 				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec"
 					(reference "H1")
 					(unit 1)
@@ -957,14 +985,18 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 60.96 190.5 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57e5cdd7-f9f0-4c26-9df9-4f537705a6a2")
 		(property "Reference" "H3"
 			(at 63.5 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -974,6 +1006,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 63.5 191.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -983,33 +1017,39 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
 			(at 60.96 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 60.96 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
 			(at 60.96 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project "sip_lpddr2"
+			(project "sbc"
 				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec"
 					(reference "H3")
 					(unit 1)
@@ -1021,14 +1061,18 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 41.91 190.5 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb26ca35-f869-41b9-8b8c-d06d5faeac55")
 		(property "Reference" "H2"
 			(at 44.45 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1038,6 +1082,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 44.45 191.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1047,33 +1093,39 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
 			(at 41.91 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 41.91 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
 			(at 41.91 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project "sip_lpddr2"
+			(project "sbc"
 				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec"
 					(reference "H2")
 					(unit 1)
@@ -1093,11 +1145,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "3a6c0599-1777-4ded-8e99-b68194014026")
 		(property "Sheetname" "IO"
 			(at 26.67 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1107,6 +1161,8 @@
 		)
 		(property "Sheetfile" "io_conn.kicad_sch"
 			(at 69.85 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1134,11 +1190,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "3f80e801-59d5-4f2a-a510-5b0db0f896e8")
 		(property "Sheetname" "PMIC"
 			(at 26.67 33.274 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 4 4)
@@ -1148,6 +1206,8 @@
 		)
 		(property "Sheetfile" "pmic.kicad_sch"
 			(at 69.85 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1175,11 +1235,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "aec0b0dc-4864-4f30-b63b-5aac84fa3885")
 		(property "Sheetname" "wifi"
 			(at 27.178 70.866 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1189,6 +1251,8 @@
 		)
 		(property "Sheetfile" "wifi.kicad_sch"
 			(at 69.85 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1216,11 +1280,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "c78c3839-f815-4c28-86ad-dd93581d387a")
 		(property "Sheetname" "cpu"
 			(at 28.194 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1230,6 +1296,8 @@
 		)
 		(property "Sheetfile" "cpu.kicad_sch"
 			(at 69.85 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,11 +1325,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "f3e7f9e2-e282-4a23-9d10-708c10386b17")
 		(property "Sheetname" "storage"
 			(at 27.94 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1271,6 +1341,8 @@
 		)
 		(property "Sheetfile" "storage.kicad_sch"
 			(at 69.85 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
