@@ -8554,7 +8554,7 @@
 	)
 	(global_label "PMC_AUX_PWR"
 		(shape output)
-		(at 182.88 72.39 180)
+		(at 33.02 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8564,7 +8564,7 @@
 		)
 		(uuid "0bd091ab-fce4-4b4e-aef1-af0fd8f6641e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.3482 72.39 0)
+			(at 16.4882 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10066,7 +10066,7 @@
 	)
 	(global_label "PMIC-LBO"
 		(shape input)
-		(at 182.88 59.69 180)
+		(at 87.63 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10076,7 +10076,7 @@
 		)
 		(uuid "8c5ad53c-222a-475c-87fb-aa1d80e19178")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.0976 59.69 0)
+			(at 74.8476 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10378,7 +10378,7 @@
 	)
 	(global_label "WL_HOST_WAKE"
 		(shape output)
-		(at 87.63 85.09 180)
+		(at 182.88 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10388,7 +10388,7 @@
 		)
 		(uuid "a7d9a174-6936-43d1-9257-9ef5e9169ec0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.005 85.0106 0)
+			(at 166.255 72.3106 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11026,7 +11026,7 @@
 	)
 	(global_label "BT_WAKE_AP"
 		(shape output)
-		(at 33.02 92.71 180)
+		(at 182.88 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11036,7 +11036,7 @@
 		)
 		(uuid "dc3cab01-5525-46e7-a71d-52db84ea87e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.1164 92.6306 0)
+			(at 168.9764 69.7706 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

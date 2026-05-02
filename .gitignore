@@ -71,4 +71,11 @@ fp-info-cache
 *.xml
 *.csv
 
-sbc-backups/*
+# Archived Backups (KiCad 6.0)
+**/*-backups/*.zip
+
+# Local project settings
+*.kicad_prl
+
+# Local history
+**/.history
