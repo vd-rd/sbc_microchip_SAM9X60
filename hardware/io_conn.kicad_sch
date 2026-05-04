@@ -5220,12 +5220,6 @@
 		(uuid "11094424-e51a-4473-a184-3ac30cc61cc0")
 	)
 	(junction
-		(at 102.87 104.14)
-		(diameter 0.9144)
-		(color 0 0 0 0)
-		(uuid "125ff0a0-698a-4b53-a81a-221d187e889b")
-	)
-	(junction
 		(at 146.05 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5242,12 +5236,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2bbd1905-9337-478b-8a9d-7951d95a34ec")
-	)
-	(junction
-		(at 97.79 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30cc3e7e-63cf-442e-8fe0-9563be51ccf3")
 	)
 	(junction
 		(at 146.05 38.1)
@@ -6369,16 +6357,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 109.22) (xy 97.79 109.22)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "c5a7fe01-f46e-4036-b127-6290e24f1f78")
-	)
-	(wire
-		(pts
 			(xy 33.02 135.89) (xy 48.26 135.89)
 		)
 		(stroke
@@ -6426,16 +6404,6 @@
 			(type default)
 		)
 		(uuid "ca9182de-60d4-4c6b-9c01-a86e3a9e7477")
-	)
-	(wire
-		(pts
-			(xy 93.98 104.14) (xy 102.87 104.14)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "cae178cf-8cad-498b-84fc-9b0171b81620")
 	)
 	(wire
 		(pts
@@ -11751,88 +11719,6 @@
 			(project "sbc"
 				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec/3a6c0599-1777-4ded-8e99-b68194014026"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 93.98 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c466040c-1228-47f1-b315-43e01f739472")
-		(property "Reference" "C824"
-			(at 96.3042 105.7715 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 96.3042 108.5466 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 93.98 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 93.98 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ab5aea14-0988-44d5-a96c-a8d74731e23f")
-		)
-		(pin "2"
-			(uuid "004d7c51-76e2-4464-87c3-947a922dc7ba")
-		)
-		(instances
-			(project "sbc"
-				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec/3a6c0599-1777-4ded-8e99-b68194014026"
-					(reference "C824")
 					(unit 1)
 				)
 			)
