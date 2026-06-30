@@ -10122,7 +10122,7 @@
 	)
 	(global_label "USR_BTN"
 		(shape input)
-		(at 182.88 59.69 180)
+		(at 87.63 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10132,7 +10132,7 @@
 		)
 		(uuid "8f2e0f45-b819-4181-91cd-2021c0952c6c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.5491 59.69 0)
+			(at 76.2991 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10938,7 +10938,7 @@
 	)
 	(global_label "GPIO1"
 		(shape bidirectional)
-		(at 87.63 67.31 180)
+		(at 182.88 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10948,7 +10948,7 @@
 		)
 		(uuid "cf66fd3e-b05c-4154-b88d-a8a231a199b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.8487 67.31 0)
+			(at 173.0987 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -461,7 +461,7 @@
 		)
 		(uuid "4c9f384b-0fa5-46ce-9b43-918071759bb2")
 	)
-	(text "CPU\nMicrochip\nSAM9X60"
+	(text "CPU\nAllwinner\nA33"
 		(exclude_from_sim no)
 		(at 267.97 89.916 0)
 		(effects
@@ -596,7 +596,7 @@
 		)
 		(uuid "dc281c05-23f2-4063-97fc-37804d6abc5d")
 	)
-	(text "ACT8945A"
+	(text "AXP223"
 		(exclude_from_sim no)
 		(at 155.702 95.504 90)
 		(effects
